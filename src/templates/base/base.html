@@ -1,0 +1,23 @@
+<!doctype html> {% load staticfiles %}
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPINGKART</title>
+    {% include "./css.html" %}
+
+</head>
+
+<body>
+    {% include "./nav.html" %} 
+  <div class="body-info">
+    {% block content %} {% endblock content %}
+   </div>
+ </div>
+
+    {% include "./js.html" %}
+</body>
+
+</html>
